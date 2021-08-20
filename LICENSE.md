@@ -1,6 +1,6 @@
 # hxr404 Propritary Developer License
-Copyright © 2021 hxr404
-All Rights Reserved.
+Copyright © 2021 hxr404<br>
+All Rights Reserved.<br>
 
 NOTICE:  All information contained herein is, and remains
 the property of hxr404 and its suppliers,
