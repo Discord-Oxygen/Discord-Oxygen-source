@@ -17,6 +17,8 @@ from hxr404.
 
 This License is still a work in progress, this repository will remain empty until its finished.
 
+The hxr404 Propritary Developer License is a propretary license for software and other kinds of works, specifically designed to ensure cooperation with trusted Developers, while ensuring that no intellectual property is stolen.
+
 ## TERMS AND CONDITIONS
 
 ### 0. Definitions.
