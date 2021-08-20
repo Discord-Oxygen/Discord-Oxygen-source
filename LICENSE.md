@@ -37,11 +37,6 @@ In consideration of all terms and conditions contained within this contract the 
 
 
 
-
-###
-The Copyright Owner may terminate this Software Development Agreement at any time, for any reason.
-
-
 ### 9. Restrictions
 
 Unless prior written consent has been obtained from the Copyright Owner, the following shall not be allowed.
@@ -68,8 +63,8 @@ Both parties shall remain fully independent business entities at all times.
 
 ### 12. Term & Termination
 
-While the term of this agreement may be perpetual, this agreement may terminate immediately in the event any breach occurs of the terms and conditions listed herein.
-In the event of termination the Licensee must destroy any and all copies of the Software as well as the included documentation.
+While the term of this agreement may be perpetual, this agreement may be terminated immediately by the Copyright Owner at any time, for any reason.
+In the event of termination the Licensee must destroy any and all copies of the Software as well as the included documentation or any other related works.
 
 ### 13. Indemnity
 
