@@ -27,14 +27,13 @@ The hxr404 Propritary Developer License is a propretary license for software and
 "The Program" refers to any copyrightable work licensed under this License. Each licensee is addressed as "you". "Licensees" and "recipients" may be individuals or organizations.
 To "modify" a work means to copy from or adapt all or part of the work in a fashion requiring copyright permission, other than the making of an exact copy. The resulting work is called a "modified version" of the earlier work or a work "based on" the earlier work.
 A "covered work" means either the unmodified Program or a work based on the Program.
-eans to do anything with it that, without permission, would make you directly or secondarily liable for infringement under applicable copyright law, except executing it on a computer or modifying a private copy. Propagation includes copying, distribution (with or without modification), making available to the public, and in some countries other activities as well.
+To "propagate" a work means to do anything with it that, without permission, would make you directly or secondarily liable for infringement under applicable copyright law, except executing it on a computer or modifying a private copy. Propagation includes copying, distribution (with or without modification), making available to the public, and in some countries other activities as well.
 Throughout this agreement, "Software" shall be defined as all source codes, object codes, link libraries, utility programs, project files, scripts related to the software listed above.
 
 ### 1. License Grant
 In consideration of all terms and conditions contained within this contract the Licensee shall have the nonexclusive and nontransferable rights as stated below.
 * The Licensee will temporarly hold the right to view the source code on Github and to store a local copy on the Licensee's device. Its the Licensee's responsibilty to make sure no third-party has access to this copy.
-* Furthermore, the Licensee will have the ability to make changes to the source-code if allowed by the Copyright Owner.
-
+* Furthermore, the Licensee will have the ability to install and use the code unless this agreement is terminated.
 
 
 ### 9. Restrictions
