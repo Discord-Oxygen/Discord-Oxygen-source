@@ -77,7 +77,7 @@ Older Version of this License are automatically terminated.
 
 
 ### 8. Indemnity
-The Licensee agrees to indemnify, defend, and to hold the Copyright Owner harmless as well as protect the Copyright Owner from and against any and all lawsuits, damages, liabilities and costs of every kind pertaining to the software, including providing reasonable legal fees due to the Developer’s infringement of the intellectual rights of any third party.
+The Licensee agrees to indemnify, defend, and to hold the Copyright Owner harmless as well as protect the Copyright Owner from and against any and all lawsuits, damages, liabilities and costs of every kind pertaining to the software, including but not limited to providing reasonable legal fees due to the Developer’s infringement of the intellectual rights of any third party.
 
 
 ### 9. Equitable Remedies
