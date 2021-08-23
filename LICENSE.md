@@ -22,19 +22,20 @@ The hxr404 Propritary Developer License is a propretary license for software and
 ## TERMS AND CONDITIONS
 
 ### 0. Definitions.
-"This License" refers to the latest Version of hxr404 Propritary Developer License.
-"Copyright" also means copyright-like laws that apply to other kinds of works, such as semiconductor masks.
-"The Program" refers to any copyrightable work licensed under this License. Each licensee is addressed as "you". "Licensees" and "recipients" may be individuals or organizations.
-To "modify" a work means to copy from or adapt all or part of the work in a fashion requiring copyright permission, other than the making of an exact copy. The resulting work is called a "modified version" of the earlier work or a work "based on" the earlier work.
-A "covered work" means either the unmodified Program or a work based on the Program.
-To "propagate" a work means to do anything with it that, without permission, would make you directly or secondarily liable for infringement under applicable copyright law, except executing it on a computer or modifying a private copy. Propagation includes copying, distribution (with or without modification), making available to the public, and in some countries other activities as well.
-Throughout this agreement, "Software" shall be defined as all source codes, object codes, link libraries, utility programs, project files, scripts related to the software listed above.
+"This License" refers to the latest Version of hxr404 Propritary Developer License.<br>
+"Copyright" also means copyright-like laws that apply to other kinds of works, such as semiconductor masks.<br>
+"The Program" or "Software" refers to any copyrightable work licensed under this License. Each licensee is addressed as "you". "Licensees" and "recipients" may be individuals or organizations.<br>
+To "modify" a work means to copy from or adapt all or part of the work in a fashion requiring copyright permission, other than the making of an exact copy. The resulting work is called a "modified version" of the earlier work or a work "based on" the earlier work.<br>
+A "covered work" means either the unmodified Program or a work based on the Program.<br>
+To "propagate" a work means to do anything with it that, without permission, would make you directly or secondarily liable for infringement under applicable copyright law, except executing it on a computer or modifying a private copy. Propagation includes copying, distribution (with or without modification), making available to the public, and in some countries other activities as well.<br>
+The "source code" for a work means the preferred form of the work for making modifications to it. “Object code” means any non-source form of a work.<br>
+
 
 ### 1. License Grant
 In consideration of all terms and conditions contained within this contract the Licensee shall have the nonexclusive and nontransferable rights as stated below.
 * The Licensee will temporarly hold the right to view the source code on Github and to store a local copy on the Licensee's device. Its the Licensee's responsibilty to make sure no third-party has access to this copy.
 * Furthermore, the Licensee will have the ability to install and use the code unless this agreement is terminated.
-* The Licensee may contribute to this work, as defined in section 3
+
 
 ### 2. Restrictions
 
@@ -51,22 +52,28 @@ Unless prior written consent has been obtained from the Copyright Owner, the fol
 The Licensee shall not (i) disclose to any third party the business of the Copyright Owner, details regarding the Software, including any information regarding the Software’s code, the Specifications, or the Copyright Owner’s business (the “Confidential Information”), (ii) make copies of any Confidential Information or any content based on the concepts contained within the Confidential Information for personal use or for distribution unless requested to do so by the Copyright Owner, or (iii) use Confidential Information other than solely for the benefit of the Copyright Owner.
 
 
-### 3. Contributing
-
-### 4. Intellectual property rights in the software
+### 3. Intellectual property rights in the software
 
 The Parties acknowledge and agree that hxr404 will hold all intellectual property rights to the Software including, but not limited to, copyright and trademark rights. You agree not to claim any such ownership in the Software’s intellectual property at any time prior to or after the completion and delivery of the Software
 
-### 5. Independent Contractors
+
+### 4. Independent Contractors
 
 No employer/employee relationship is implied or established through this source code agreement.
 
 Both parties shall remain fully independent business entities at all times.
 
-### 6. Term & Termination
+
+### 5. Term & Termination
 
 While the term of this agreement may be perpetual, this agreement may be terminated immediately by the Copyright Owner at any time, for any reason.
 In the event of termination the Licensee must destroy any and all copies of the Software as well as the included documentation or any other related works.
+
+
+### 6. Revised Versions of this License
+Hxr404 may publish revised and/or new versions of the GNU General Public License at any time.
+Older Version of this License are automatically terminated.
+
 
 ### 7. Indemnity
 
@@ -74,10 +81,12 @@ The Licensee agrees to indemnify, defend, and to hold the Software Provider harm
 
 The Licensee agrees to indemnify, defend, and to hold the Software Provider harmless as well as protect the Client from and against all lawsuits and costs of every kind pertaining to the software, including providing reasonable legal fees due to the Developer’s infringement of the intellectual rights of any third party.
 
+
 ### 8. Equitable Remedies
 
 Both parties agree that direct monetary damages may not be the sole extent of damages related to a breach of this source code license agreement.
 Therefore, each party agrees a breach in this agreement by the Licensee will allow the Software Provider to seek additional relief from the Licensee.
+
 
 ### 9. Disclaimer of Warranty.
 
@@ -85,9 +94,11 @@ THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW.
 
 The Copyright Owner shall not be obligated under this Agreement to provide any further support or assistance to the Licensee.
 
+
 ### 10. Limitation of Liability.
 
 IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
 
 ### 11. Interpretation of Sections 9 and 10.
 
