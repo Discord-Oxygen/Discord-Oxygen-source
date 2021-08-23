@@ -56,51 +56,56 @@ The Licensee shall not (i) disclose to any third party the business of the Copyr
 
 The Parties acknowledge and agree that hxr404 will hold all intellectual property rights to the Software including, but not limited to, copyright and trademark rights. You agree not to claim any such ownership in the Software’s intellectual property at any time prior to or after the completion and delivery of the Software
 
+### 4. Developer warranties
 
-### 4. Independent Contractors
+The Developer agrees to the following warrant conditions:
+* Development and delivery of the Software under this Agreement are not in violation of any other agreement that the Developer has with another party.
+* The Software will not violate the intellectual property rights of any other party.
+
+### 5. Independent Contractors
 
 No employer/employee relationship is implied or established through this source code agreement.
 
 Both parties shall remain fully independent business entities at all times.
 
 
-### 5. Term & Termination
+### 6. Term & Termination
 
 While the term of this agreement may be perpetual, this agreement may be terminated immediately by the Copyright Owner at any time, for any reason.
 In the event of termination the Licensee must destroy any and all copies of the Software as well as the included documentation or any other related works.
 
 
-### 6. Revised Versions of this License
+### 7. Revised Versions of this License
 Hxr404 may publish revised and/or new versions of the GNU General Public License at any time.
 Older Version of this License are automatically terminated.
 
 
-### 7. Indemnity
+### 8. Indemnity
 
 The Licensee agrees to indemnify, defend, and to hold the Software Provider harmless as well as protect the Client from and against any and all damages, costs, and liabilities that take place from a lawsuit due to anyything related to this work or license agreement.
 
 The Licensee agrees to indemnify, defend, and to hold the Software Provider harmless as well as protect the Client from and against all lawsuits and costs of every kind pertaining to the software, including providing reasonable legal fees due to the Developer’s infringement of the intellectual rights of any third party.
 
 
-### 8. Equitable Remedies
+### 9. Equitable Remedies
 
 Both parties agree that direct monetary damages may not be the sole extent of damages related to a breach of this source code license agreement.
 Therefore, each party agrees a breach in this agreement by the Licensee will allow the Software Provider to seek additional relief from the Licensee.
 
 
-### 9. Disclaimer of Warranty.
+### 10. Disclaimer of Warranty.
 
 THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
 
 The Copyright Owner shall not be obligated under this Agreement to provide any further support or assistance to the Licensee.
 
 
-### 10. Limitation of Liability.
+### 11. Limitation of Liability.
 
 IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
 
-### 11. Interpretation of Sections 9 and 10.
+### 12. Interpretation of Sections 10 and 11.
 
 If the disclaimer of warranty and limitation of liability provided above cannot be given local legal effect according to their terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability in connection with the Program.
 
