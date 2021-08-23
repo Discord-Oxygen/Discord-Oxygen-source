@@ -54,6 +54,8 @@ The Licensee shall not (i) disclose to any third party the business of the Copyr
 ### 3. Intellectual property rights in the software
 The Parties acknowledge and agree that hxr404 will hold all intellectual property rights to the Software including, but not limited to, copyright and trademark rights. You agree not to claim any such ownership in the Software’s intellectual property at any time prior to or after the completion and delivery of the Software
 
+The Licensee agrees to display an appropriate copyright notice in any versions of the Software.
+
 
 ### 4. Developer warranties
 The Developer agrees to the following warrant conditions:
