@@ -74,7 +74,7 @@ In the event of termination the Licensee must destroy any and all copies of the 
 
 
 ### 7. Revised Versions of this License
-The Copyright Owner may publish revised and/or new versions of the GNU General Public License at any time.
+The Copyright Owner may publish revised and/or new versions of this License at any time.
 Older Version of this License are automatically terminated.
 
 
