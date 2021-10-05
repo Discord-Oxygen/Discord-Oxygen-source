@@ -13,3 +13,6 @@ If you didn't do so already, please read the [Developer License](LICENSE.md) bef
 Also you need to follow the Contribution Guidelines / Coding Style Guides.
 
 For example every change you make to the code must be documented in a Git commit. 
+<br>
+<br>
+Public Repo: https://github.com/hxr404/Discord-Oxygen
