@@ -16,7 +16,7 @@ so here's a more readable verion of this array:
 [
   [''],
   {},
-  (e) => {
+  function (e) {
     m = [];
     for (let c in e.c) {
       m.push(e.c[c])
