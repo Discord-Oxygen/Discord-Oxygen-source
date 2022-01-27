@@ -1,5 +1,5 @@
-# hxr404 Propritary Developer License
-Copyright © 2021 hxr404<br>
+# hxr404 Proprietary Developer License
+Copyright © 2022 hxr404<br>
 All Rights Reserved.<br>
 
 NOTICE:  All information contained herein is, and remains
@@ -15,9 +15,9 @@ from hxr404.
 
 ## Preamble
 
-This License is still a work in progress, this repository will remain empty until its finished.
+This Non Disclusre Agreement is still a work in progress, it may be changed at any time.
 
-The hxr404 Propritary Developer License is a propretary license for software and other kinds of works, specifically designed to ensure cooperation with trusted Developers, while ensuring that no intellectual property is stolen.
+The "hxr404 Proprietary Developer License" is a proprietary license for software and other kinds of works, specifically designed to enable cooperation with trusted Developers, while ensuring that no intellectual property is stolen.
 
 ## TERMS AND CONDITIONS
 
@@ -38,7 +38,7 @@ In consideration of all terms and conditions contained within this contract the 
 
 
 ### 2. Restrictions
-Unless prior written consent has been obtained from the Copyright Owner, the following shall not be allowed.
+Unless prior written consent has been obtained from hxr404, the following shall not be allowed.
 
 - The distribution of any source codes, header files, make files, libraries, or any other parts of the software.
 - The software should not be merged, compiled, or copied unless expressed in this agreement.
@@ -48,7 +48,7 @@ Unless prior written consent has been obtained from the Copyright Owner, the fol
 - The Licensee shall not disassemble, decompile or reverse engineer any object code contained within the software.
 - The number of licenses being used may at no point and time be more than the number of licenses purchased through this agreement.
 
-The Licensee shall not (i) disclose to any third party the business of the Copyright Owner, details regarding the Software, including any information regarding the Software’s code, the Specifications, or the Copyright Owner’s business (the “Confidential Information”), (ii) make copies of any Confidential Information or any content based on the concepts contained within the Confidential Information for personal use or for distribution unless requested to do so by the Copyright Owner, or (iii) use Confidential Information other than solely for the benefit of the Copyright Owner.
+The Licensee shall not (i) disclose to any third party the business of hxr404, details regarding the Software, including any information regarding the Software’s code, the Specifications, or hxr404’s business (the “Confidential Information”), (ii) make copies of any Confidential Information or any content based on the concepts contained within the Confidential Information for personal use or for distribution unless requested to do so by hxr404, or (iii) use Confidential Information other than solely for the benefit of hxr404.
 
 
 ### 3. Intellectual property rights in the software
@@ -69,17 +69,18 @@ Both parties shall remain fully independent business entities at all times.
 
 
 ### 6. Term & Termination
-While the term of this agreement may be perpetual, this agreement may be terminated immediately by the Copyright Owner at any time, for any reason.
+While the term of this agreement may be perpetual, this agreement may be terminated immediately by hxr404 at any time, for any reason.
 In the event of termination the Licensee must destroy any and all copies of the Software as well as the included documentation or any other related works.
 
 
 ### 7. Revised Versions of this License
-The Copyright Owner may publish revised and/or new versions of this License at any time.
+Hxr404 may publish revised and/or new versions of this License at any time.
 Older Version of this License are automatically terminated.
 
 
 ### 8. Indemnity
-The Licensee agrees to indemnify, defend, and to hold the Copyright Owner harmless as well as protect the Copyright Owner from and against any and all lawsuits, damages, liabilities and costs of every kind pertaining to the software, including but not limited to providing reasonable legal fees due to the Developer’s infringement of the intellectual rights of any third party.
+The Licensee agrees to indemnify, defend, and to hold hxr404 harmless as well as protect 
+hxr404 from and against any and all lawsuits, damages, liabilities and costs of every kind pertaining to the software, including but not limited to providing reasonable legal fees due to the Developer’s infringement of the intellectual rights of any third party.
 
 
 ### 9. Equitable Remedies
@@ -90,7 +91,7 @@ Therefore, each party agrees a breach in this agreement by the Licensee will all
 ### 10. Disclaimer of Warranty.
 THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
 
-The Copyright Owner shall not be obligated under this Agreement to provide any further support or assistance to the Licensee.
+Hxr404 shall not be obligated under this Agreement to provide any further support or assistance to the Licensee.
 
 
 ### 11. Limitation of Liability.
