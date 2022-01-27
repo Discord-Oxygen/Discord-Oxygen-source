@@ -2,9 +2,9 @@
 
 ## initialize API
 ```js
-webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]) //we make use of discords code which kinda parses and executes the last element of webpackChunkdiscord_app. I don't have clue why, put pushing [[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}] to said array makes it write the functions into a new object called m. (when I have more time I'll research a bit more on this - hxr404)
+webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]) //we make use of discords code which kinda parses and executes the last element of webpackChunkdiscord_app.
 webpackChunkdiscord_app.pop(); // clean up the mess we created in order to obtain the objects
-var discordchunkAPI = m; //we need to do this because any other name than m is not possible ("m" is hardcoded in discords code, probably by their minifier)
+var discordchunkAPI = m; //we don't need to do this, any other name than m is possible ("m" is not hardcoded in discords code). I was just being stupid and misread discords code (I didn't notice that my client was bugged, therefore i though this "m" was the reason)
 delete m;
 //never use webpackChunkdiscord_app.push again lol
 //if discord changes something again, this is the only thing that need to be updated
