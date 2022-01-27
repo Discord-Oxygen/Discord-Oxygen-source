@@ -18,8 +18,14 @@ so here's a more readable verion of this array:
 Note: There is a version of this code which replaces the first empty string with a random number. Both Version work equally well.
 unfortunately I don't have access to discord's source maps so I have to make sense out of their scrambled code using the firefeox debugger.
 
+## initialize DiscordOxygenAPI
+```js
+var DiscordOxygen = [];
+DiscordOxygen.config = [];
+DiscordOxygen.API.DiscordChunk = [];
+```
 
-## initialize API
+## initialize chunk
 ```js
 //we make use of discords code which kinda parses and executes the last element of webpackChunkdiscord_app.
 webpackChunkdiscord_app.push([
@@ -37,12 +43,14 @@ webpackChunkdiscord_app.pop(); // clean up the mess we created in order to obtai
 and now
 never use webpackChunkdiscord_app.push again lol, if discord changes soemthing again (like on october 22nd, 2021), this is the only thing that need to be updated
 */
+DiscordOxygen.API.DiscordChunk = DiscordChunk;
+//remove DiscordChunk
 ```
 
-## anti token logger
+## security auditing
 
 ```js
-var AntiLoggerStrictmode = false; //change to true for enabling strict mode (alert on every webpack update)
+var DiscordOxygen.config.AuditStrictmode = false; //change to true for enabling strict mode (alert on every webpack update)
 
 var totalbundled = webpackChunkdiscord_app.length; //save length of Discord's Webpack array globally scoped
 function checkAccess(strict = false) {
@@ -62,12 +70,21 @@ function checkAccess(strict = false) {
   totalbundled = webpackChunkdiscord_app.length; //totalbundles is a global var. We reset it so that the user only gets notified once
   return e;
 }
-let AntiTokenLogger = setInterval(()=>{
-  if (checkAccess(AntiLoggerStrictmode)) {
-    alert("A function accessed Discord's Webpack API!"); //message still a wip
+let AuditService = setInterval(()=>{
+  if (checkAccess(DiscordOxygen.config.AuditStrictmode)) {
+    alert("Something accessed Discord's Webpack API!"); //exakt message still needs to be decided on
   }
 }, 1000);
 ```
+
+## Anti-token-logger
+Prevents the token being read and replaces it with a custom message.
+```
+var DiscordOxygen.config.AntiLoggerMessage = "Dumbass did you really think I'd fall for this? lol"
+DiscordChunk.find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken() = () => {
+  alert('Prevented Token Logger Attempt!');
+  return "Discord Oxygen Anti-TokenLog: " + DiscordOxygen.config.AntiLoggerMessage;
+}
 
 ## some interesting objects to look at
 ```
