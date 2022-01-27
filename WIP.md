@@ -1,9 +1,10 @@
 # some js codes i'm testing
 
-## initilize API
+## initialize API
 ```js
-webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}])
-var discordchunkAPI = m;
+webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]) //we make use of discords code which kinda parses and executes the last element of webpackChunkdiscord_app. I don't have clue why, put pushing [[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}] to said array makes it write the functions into a new object called m. (when I have more time I'll research a bit more on this - hxr404)
+webpackChunkdiscord_app.pop(); // clean up the mess we created in order to obtain the objects
+var discordchunkAPI = m; //we need to do this because any other name than m is not possible ("m" is hardcoded in discords code, probably by their minifier)
 delete m;
 //never use webpackChunkdiscord_app.push again lol
 //if discord changes something again, this is the only thing that need to be updated
