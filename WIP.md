@@ -1,5 +1,13 @@
 # some js codes i'm testing
 
+## initilize API
+```js
+webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}])
+var discordchunkAPI = m;
+delete m;
+//never use webpackChunkdiscord_app.push again lol
+//if discord changes something again, this is the only thing that need to be updated
+```
 ## anti token logger
 
 ```js
