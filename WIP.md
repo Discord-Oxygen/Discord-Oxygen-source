@@ -14,7 +14,7 @@ function checkAccess() {
 }
 setInterval(()=>{
   if (checkAccess()) {
-    alert('A function accessed Discord's Webpack API!'); //message still a wip
+    alert("A function accessed Discord's Webpack API!"); //message still a wip
   }
 }, 1000);
 ```
