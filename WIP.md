@@ -3,6 +3,8 @@
 ## anti token logger
 
 ```js
+var AntiLoggerStrictmode = false; //change to true for enabling strict mode (alert on every webpack update)
+
 var totalbundled = webpackChunkdiscord_app.length; //save length of Discord's Webpack array globally scoped
 function checkAccess(strict = false) {
   var e = false; //local var for exit code
@@ -22,7 +24,7 @@ function checkAccess(strict = false) {
   return e;
 }
 setInterval(()=>{
-  if (checkAccess()) {
+  if (checkAccess(AntiLoggerStrictmode)) {
     alert("A function accessed Discord's Webpack API!"); //message still a wip
   }
 }, 1000);
