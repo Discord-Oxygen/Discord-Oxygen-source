@@ -68,3 +68,8 @@ setInterval(()=>{
   }
 }, 1000);
 ```
+
+## some interesting objects to look at
+```
+DiscordChunk.find(m=>m?.exports?.default?.getDefaultPrice!==void 0)
+```
