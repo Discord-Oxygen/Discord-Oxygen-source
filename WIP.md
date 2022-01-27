@@ -4,12 +4,21 @@
 
 ```js
 var totalbundled = webpackChunkdiscord_app.length; //save length of Discord's Webpack array globally scoped
-function checkAccess() {
+function checkAccess(strict = false) {
   var e = false; //local var for exit code
   if (webpackChunkdiscord_app.length>totalbundled) {
-    e = true;
-  } //check if webpack array became bigger. This works becuase most console hacks and token logger push an array to the webpack array in order to parse it.
-	totalbundled = webpackChunkdiscord_app.length; //totalbundles is a global var. We reset it so that the user only gets notified once
+    if (strict == true) {
+      e = true; //check if webpack array became bigger.
+    } else {
+    //this else part checks if the recently added object is an array and contrains three objects. Most console hacks use this pushed array to access the webpack API
+      if (Array.isArray(lastarray)) {
+        if (lastarray.length == 3) {
+          e = true;
+        }
+      }
+    }
+  } 
+  totalbundled = webpackChunkdiscord_app.length; //totalbundles is a global var. We reset it so that the user only gets notified once
   return e;
 }
 setInterval(()=>{
