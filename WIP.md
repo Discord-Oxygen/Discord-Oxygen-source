@@ -26,6 +26,7 @@ unfortunately I don't have access to discord's source maps so I have to make sen
 ```js
 var DiscordOxygen = [];
 DiscordOxygen.config = [];
+DiscordOxygen.accounts = [];
 DiscordOxygen.API = [];
 DiscordOxygen.API.DiscordChunk = [];
 ```
@@ -86,8 +87,9 @@ let AuditService = setInterval(()=>{
 Prevents the token being read and replaces it with a custom message.
 ```js
 var DiscordOxygen.config.AntiLoggerMessage = "Dumbass did you really think I'd fall for this? lol"
+Originaltoken = DiscordChunk.find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken();
 DiscordChunk.find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken() = () => {
-  alert('Prevented Token Logger Attempt!');
+  alert('Prevented token readout attempt!');
   return "Discord Oxygen Anti-TokenLog: " + DiscordOxygen.config.AntiLoggerMessage;
 }
 ```
