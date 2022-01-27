@@ -79,12 +79,13 @@ let AuditService = setInterval(()=>{
 
 ## Anti-token-logger
 Prevents the token being read and replaces it with a custom message.
-```
+```js
 var DiscordOxygen.config.AntiLoggerMessage = "Dumbass did you really think I'd fall for this? lol"
 DiscordChunk.find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken() = () => {
   alert('Prevented Token Logger Attempt!');
   return "Discord Oxygen Anti-TokenLog: " + DiscordOxygen.config.AntiLoggerMessage;
 }
+```
 
 ## some interesting objects to look at
 ```
