@@ -1,18 +1,15 @@
 # Discord-Oxygen-source
 
-This repo contains the source code of Discord Oxygen (formerly the Framework / free discord nitro hack) and a collection of code that can/will be added to it.
+This repo contains the source code of Discord Oxygen and related work.
+The Public Repo can be found here: https://github.com/hxr404/Discord-Oxygen.
 
-This repo should NEVER go public, if you can read this it means that you have exclusive access and I trust you to not dissapoint me.
+You can see this because I trust you. DON'T GIVE ACCESS TO ANYONE!
 
-Everything here (Including the Name, the Code, the Concept, etc.) is intellectual property of hxr404.
-You must NOT Redistribute any parts of the work, and its your responsibility to keep it secure.
-Every contribution you make to this repository will have to follow the license, meaning you agree to grant hxr404 all exclusive rights and to resign from every copyright  rights.
+Everything in this repo (Including the Name, the Code, the Idea, etc.) is intellectual property of hxr404.
+It is your responsipbility to keep your Account (and therefore this repo) secured.
 
-If you didn't do so already, please read the [Developer License](LICENSE.md) before continuing.
+If you can see this repo it means that you must have agreed to this License: [Developer License](LICENSE.md).
 
-Also you need to follow the Contribution Guidelines / Coding Style Guides.
 
-For example every change you make to the code must be documented in a Git commit. 
-<br>
-<br>
-Public Repo: https://github.com/hxr404/Discord-Oxygen
+## Making Changes to the code
+Please follow the Contribution Guidelines.

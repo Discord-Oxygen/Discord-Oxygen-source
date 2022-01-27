@@ -730,7 +730,7 @@ modal = `<div class="upper">
   </svg>
 </div>`
 
-
+/*
         <div class="middle"><div class="user">
             <div class="user-l">
                 <div class="user-icon" style="background: url(url2)"></div>
@@ -753,7 +753,7 @@ modal = `<div class="upper">
                 </svg>
             </div>
         </div></div>
-
+*/
 
 modal = ''
 confirmbuttontext = 'Log in';
