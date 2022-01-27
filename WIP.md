@@ -22,6 +22,7 @@ unfortunately I don't have access to discord's source maps so I have to make sen
 ```js
 var DiscordOxygen = [];
 DiscordOxygen.config = [];
+DiscordOxygen.API = [];
 DiscordOxygen.API.DiscordChunk = [];
 ```
 
