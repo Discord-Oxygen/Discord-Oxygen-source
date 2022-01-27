@@ -2,10 +2,22 @@
 
 ## initialize API
 ```js
-webpackChunkdiscord_app.push([[''],{},e=>{discordchunkAPI=[];for(let c in e.c)discordchunkAPI.push(e.c[c])}]) //we make use of discords code which kinda parses and executes the last element of webpackChunkdiscord_app.
+//we make use of discords code which kinda parses and executes the last element of webpackChunkdiscord_app.
+webpackChunkdiscord_app.push([
+  [''],
+  {},
+  function (e) {
+    DiscordChunk = [];
+    for (let c in e.c) {
+      DiscordChunk.push(e.c[c])
+    };
+  }
+]);
 webpackChunkdiscord_app.pop(); // clean up the mess we created in order to obtain the objects
-//never use webpackChunkdiscord_app.push again lol
-//if discord changes something again, this is the only thing that need to be updated
+/*
+and now
+never use webpackChunkdiscord_app.push again lol, if discord changes soemthing again (like on october 22nd, 2021), this is the only thing that need to be updated
+*/
 ```
 ## todo
 pushing this array `[[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]` into `webpackChunkdiscord_app` creates object m.
