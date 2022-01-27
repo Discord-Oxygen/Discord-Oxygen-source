@@ -9,6 +9,22 @@ delete m;
 //never use webpackChunkdiscord_app.push again lol
 //if discord changes something again, this is the only thing that need to be updated
 ```
+## todo
+pushing this array `[[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]` into `webpackChunkdiscord_app` creates object m.
+so here's a more readable verion of this array:
+```js
+[
+  [''],
+  {},
+  function e() {
+    m = [];
+    for (let c in e.c) {
+		m.push(e.c[c])
+	}
+  }
+]
+```
+
 ## anti token logger
 
 ```js
