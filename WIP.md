@@ -18,6 +18,10 @@ so here's a more readable verion of this array:
 Note: There is a version of this code which replaces the first empty string with a random number. Both Version work equally well.
 unfortunately I don't have access to discord's source maps so I have to make sense out of their scrambled code using the firefeox debugger.
 
+<hr>
+
+# Code
+
 ## initialize DiscordOxygenAPI
 ```js
 var DiscordOxygen = [];
