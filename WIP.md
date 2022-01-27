@@ -12,7 +12,7 @@ function checkAccess(strict = false) {
     } else {
     //this else part checks if the recently added object is an array and contrains three objects. Most console hacks use this pushed array to access the webpack API
       if (Array.isArray((webpackChunkdiscord_app.length[webpackChunkdiscord_app.length -1]))) {
-        if ((webpackChunkdiscord_app.length[webpackChunkdiscord_app.length -1].length == 3) {
+        if ((webpackChunkdiscord_app.length[webpackChunkdiscord_app.length -1].length == 3)) {
           e = true;
         }
       }
