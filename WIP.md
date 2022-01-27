@@ -62,7 +62,7 @@ function checkAccess(strict = false) {
   totalbundled = webpackChunkdiscord_app.length; //totalbundles is a global var. We reset it so that the user only gets notified once
   return e;
 }
-setInterval(()=>{
+let AntiTokenLogger = setInterval(()=>{
   if (checkAccess(AntiLoggerStrictmode)) {
     alert("A function accessed Discord's Webpack API!"); //message still a wip
   }
