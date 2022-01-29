@@ -1,0 +1,10 @@
+{
+  "name": "discordoxygen",
+  "version": "dev-5.0.1",
+  "description": "Discord Oxygen",
+  "main": "./src/main.js",
+  "scripts": {
+    "pack": "webpack",
+    "build": "echo no production builds yet."
+  }
+}
