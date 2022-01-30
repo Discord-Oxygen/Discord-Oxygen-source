@@ -1,6 +1,6 @@
 {
   "name": "discordoxygen",
-  "version": "dev-5.0.2",
+  "version": "dev-5.1.0",
   "description": "Discord Oxygen",
   "main": "./src/main.js",
   "scripts": {
