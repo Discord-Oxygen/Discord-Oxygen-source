@@ -1,3 +1,4 @@
+"use strict";
 /* NOTICE: This work is intellecutal property of hxr404. You are legally required to follow the Terms & Conditions of your License Agreement with hxr404.
 If you don't have a valid License Agreement, accessing this file is illegal and you must delete everything immeditatley.
 
@@ -5,7 +6,6 @@ If you don't have a valid License Agreement, accessing this file is illegal and 
 All rights reserved.
 
 */
-'use strict';
 
 if (window.localStorage.getItem(DiscordOxygenBackup !== undefined)) {
   import initialize from "./modules/core/core.mjs";
