@@ -34,11 +34,10 @@ export default function DiscordChunk() {
 }
 
 export function DiscordChunkAPI() {
-  //window.DiscordOxygen.API.DiscordChunkAPI = []; not sure yet wether this is possible
+  //DiscordChunkAPI().getCurrentUser(); not sure yet wether this is possible
 }
 
-/*
+
 export function DiscordChunkFunction(name) {
-  return "DiscordChunk.find(m => m?.exports?.default?."+name+" !== void 0).exports.default."+name+"();"
+  return "DiscordChunk.find(m => m?.exports?.default?."+name+" !== void 0).exports.default."+name;
 }
-*/

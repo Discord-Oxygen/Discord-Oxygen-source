@@ -1,6 +1,6 @@
 'use strict';
 
-export var name = "[Unknown Module}";
+export var name = "[Unknown Module]";
 export var description = "Description not written yet, sorry.";
 export var long_description = "This Module is so early in development, it doesn't even have a description yet...";
 export var version = "dev-0.0.1";
@@ -15,7 +15,7 @@ export var unstable = false; //if this module breaks discord
 detectable flag levels
 
 ------Stealth-------- (only detectable if you share information on your own)
-Level 0: Absolutley Undetectable. These Modules could only be noticed by inspecting the source code in the Browser cache.
+Level 0: Undetectable. These Modules could only be noticed by inspecting the source code in the Browser cache.
 Level 1: Client-side only changes. Can only be detected if sharing screenshot.
 Level 2: Client-side only, but severe changes. Can only be detected if sharing screenshots or revealing information. For example if you say the names of hidden channels or know what devices people are using, it might reveal the fact that you are using hacks.
 -----Normal-------- (Everything that is not entirely client-side qualifies for this category)
@@ -29,8 +29,8 @@ Level 8: Changes are high that you get banned right away. "EMERGENCY MEETING!"
 
 unstable flag
 
-if set to true, it means that this module is highly unstable, has many bugs and lead to unexpected behaviour.
-
+if set to true, it means that this module is highly unstable, has many bugs and leads to unexpected behaviour.
+For example you might experience more crashes or random logouts.
 
 
 
