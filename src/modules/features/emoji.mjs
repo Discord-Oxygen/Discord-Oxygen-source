@@ -1,5 +1,3 @@
-'use strict';
-
 export var name = "Free Emoji";
 export var description = "Use custom emojis without Nitro";
 export var long_description = "No description yet :/";

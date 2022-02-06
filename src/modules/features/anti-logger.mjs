@@ -1,5 +1,3 @@
-'use strict';
-
 export var name = "Anti Logger";
 export var description = "Protects against Token Loggers by spoofing the function's readout. WARNING: THIS MODULE WILL BREAK DISCORD. Using the audit module is recommended instead.";
 export var long_description = "Description not written yet, sorry.";

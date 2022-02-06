@@ -1,5 +1,3 @@
-'use strict';
-
 export var name = "[Unknown Module]";
 export var description = "Description not written yet, sorry.";
 export var long_description = "This Module is so early in development, it doesn't even have a description yet...";

@@ -1,5 +1,3 @@
-'use strict';
-
 export var name = "Discord Chunk Webpack API";
 export var description = "Provides access to Discord's internal API.";
 export var long_description = "Description not written yet, sorry.";

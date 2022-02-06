@@ -1,5 +1,3 @@
-'use strict';
-
 export var name = "Core";
 export var description = "Core Module required for making Discord Oxygen work.";
 export var long_description = "Core Module required for making Discord Oxygen work.";
