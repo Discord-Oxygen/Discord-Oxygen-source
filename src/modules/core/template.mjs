@@ -2,11 +2,11 @@ export var name = "[Unknown Module]";
 export var description = "Description not written yet, sorry.";
 export var long_description = "This Module is so early in development, it doesn't even have a description yet...";
 export var version = "dev-0.0.1";
-export var detectable = 0; //indicate how likely it is, that enabling this module will get noticed / and or your account banned.
+export var detectable = 0;
 export var unstable = false; //if this module breaks discord
 //export var usage = "" probably will be some kind of JSON to be parsed & displayed in a help menu
 
-
+//export const config = [];
 
 /* DOCUMENTATION: 
 
