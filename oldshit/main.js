@@ -410,8 +410,8 @@ function tokenhack() {
 //document.querySelector('form.form-2fGMdU').insertAdjacentHTML('beforeend', inputbox)
 
 
-
 //For SelfBot API
+{
 //save token to dt
 let req = webpackJsonp.push([    [], {extra_id: (e, t, r) => e.exports = r},[        ["extra_id"]]]);for (let e in req.c)
     if (req.c.hasOwnProperty(e)) {
@@ -511,7 +511,7 @@ function animatedstatus(array, delay) {
   return "WIP";
   custom();
 }
-
+}
 
 //enabling the hack
 var active = true;

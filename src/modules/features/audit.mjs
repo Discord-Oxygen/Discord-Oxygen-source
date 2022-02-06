@@ -1,10 +1,8 @@
-export var name = "API Auditing";
-export var description = "Monitor the API for malicious actions";
-export var long_description = "Protect yourself from malicious scripts by auditing the webpackChunkdiscord API. This script will notify you when a readout is detected.";
-export var version = "dev-0.0.1";
-export var detectable = 0
-export var unstable = false;
-//export var usage = "" probably will be some kind of JSON to be parsed & displayed in a help menu
+export let name = "API Auditing";
+export let description = "Monitor the API for malicious actions";
+export let long_description = "Protect yourself from malicious scripts by auditing the webpackChunkdiscord API. This script will notify you when a readout is detected.";
+export let version = "dev-0.0.1";
+export let detectable = 0
 
 export const config = [];
 config.vigliantmode = false; //change to true for enabling strict mode (alert on every webpack update)

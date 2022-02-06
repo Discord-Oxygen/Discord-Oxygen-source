@@ -1,11 +1,8 @@
-export var name = "Discord Chunk Webpack API";
-export var description = "Provides access to Discord's internal API.";
-export var long_description = "Description not written yet, sorry.";
-export var version = "dev-0.0.1";
-export var detectable = 0;
-export var unstable = false;
-//export var usage = "" probably will be some kind of JSON to be parsed & displayed in a help menu
-
+export let name = "Discord Chunk Webpack API";
+export let description = "Provides access to Discord's internal API.";
+export let long_description = "Description not written yet, sorry.";
+export let version = "dev-0.0.1";
+export let detectable = 0;
 
 if (typeof (webpackChunkdiscord_app) === undefined) {
   alert('CRITICAL ERROR! webpackChunkdiscord_app not found!\nSeems like Discord changed their codebase again.')

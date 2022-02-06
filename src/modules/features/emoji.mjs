@@ -1,10 +1,8 @@
-export var name = "Free Emoji";
-export var description = "Use custom emojis without Nitro";
-export var long_description = "No description yet :/";
-export var version = "dev-0.0.1";
-export var detectable = 4;
-export var unstable = false; //if this odule breaks discord
-//export var usage = "" probably will be some kind of JSON to be parsed & displayed in a help menu
+export let name = "Free Emoji";
+export let description = "Use custom emojis without Nitro";
+export let long_description = "No description yet :/";
+export let version = "dev-0.0.1";
+export let detectable = 4;
 
 /* This shouldn't be required if Nitro is spoofed.
 let css = `li[class*='emojiItemDisabled'] { 

@@ -1,10 +1,8 @@
-export var name = "Core";
-export var description = "Core Module required for making Discord Oxygen work.";
-export var long_description = "Core Module required for making Discord Oxygen work.";
-export var version = "dev-0.0.2";
-export var detectable = 0;
-export var unstable = false;
-//export var usage = "" probably will be some kind of JSON to be parsed & displayed in a help menu
+export let name = "Core";
+export let description = "Core Module required for making Discord Oxygen work.";
+export let long_description = "Core Module required for making Discord Oxygen work.";
+export let version = "dev-0.0.4";
+export let detectable = 0;
 
 export function initialize() {
   window.DiscordOxygen = [];

@@ -1,14 +1,16 @@
-export var name = "[Unknown Module]";
-export var description = "Description not written yet, sorry.";
-export var long_description = "This Module is so early in development, it doesn't even have a description yet...";
-export var version = "dev-0.0.1";
-export var detectable = 0;
-export var unstable = false; //if this module breaks discord
+export let name = "[Unknown Module]";
+export let description = "Description not written yet, sorry.";
+export let long_description = "This Module is so early in development, it doesn't even have a description yet...";
+export let version = "dev-0.0.3";
+export let detectable = 0;
+//export let unstable = false;
 //export var usage = "" probably will be some kind of JSON to be parsed & displayed in a help menu
 
 //export const config = [];
 
-/* DOCUMENTATION: 
+console.log(`
+
+DOCUMENTATION: 
 
 detectable flag levels
 
@@ -30,7 +32,4 @@ unstable flag
 if set to true, it means that this module is highly unstable, has many bugs and leads to unexpected behaviour.
 For example you might experience more crashes or random logouts.
 
-
-
-
-*/
+`);
