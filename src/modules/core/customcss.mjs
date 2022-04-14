@@ -5,7 +5,7 @@ export let version = "dev-0.0.1";
 export let detectable = 1;
 
 export function addCSS(cssname, css) {
-  let el = document.createElement("style");
+  const el = document.createElement("style");
   el.innerHTML = css;
   el.name = cssname;
   document.head.appendChild(el);

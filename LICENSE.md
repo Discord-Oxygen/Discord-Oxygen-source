@@ -4,7 +4,7 @@ All Rights Reserved.<br>
 
 NOTICE:  All information contained herein is, and remains
 the property of hxr404 and its suppliers,
-if any.  The intellectual and technical concepts contained
+if any. The intellectual and technical concepts contained
 herein are proprietary to hxr404
 and its suppliers and may be covered by U.S. and Foreign Patents,
 patents in process, and are protected by trade secret or copyright law.
@@ -15,7 +15,7 @@ from hxr404.
 
 ## Preamble
 
-This Non Disclusre Agreement is still a work in progress, it may be changed at any time.
+This Non Disclosure Agreement is still a work in progress, it may be changed at any time.
 
 The "hxr404 Proprietary Developer License" is a proprietary license for software and other kinds of works, specifically designed to enable cooperation with trusted Developers, while ensuring that no intellectual property is stolen.
 

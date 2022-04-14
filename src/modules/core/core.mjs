@@ -18,6 +18,7 @@ export function resume() {
   window.DiscordOxygen = JSON.parse(window.localStorage.getItem(DiscordOxygenBackup));
 };
 
+/*
 export function loadModule(path) {
   let nameArray = path.split('/');
   let name = nameArray[nameArray.length - 1];
@@ -25,3 +26,4 @@ export function loadModule(path) {
   window.DiscordOxygen.modules.name = DiscordOxygenmodule_tempdeleteme;
   DiscordOxygenmodule_tempdeleteme = (function(){}());
 };
+This wasn't really a good idea, but I'll keep this as a comment for archival purposes anyways */

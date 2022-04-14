@@ -1,10 +1,18 @@
 {
   "name": "discordoxygen",
-  "version": "dev-5.2.0",
-  "description": "Discord Oxygen",
+>  "description": "Discord Oxygen - ESM-based client-mod for Discord",
+  "version": "0.5.2",
   "main": "./src/main.js",
+  "license": "proprietary",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hxr404/Discord-Oxygen-source"
+  },
+  "devDependencies": {
+    "rollup": "^2.34.0"
+  },
   "scripts": {
-    "pack": "webpack",
+    "pack": "rollup --config",
     "build": "echo no production builds yet."
   }
 }

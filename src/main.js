@@ -8,14 +8,10 @@ If you don't have a valid License Agreement, using this file is illegal and you 
 All rights reserved.
 
 */
+import {initialize, resume} from "./modules/core/core.mjs";
 
-if (window.localStorage.getItem(DiscordOxygenBackup !== undefined)) {
-  import initialize from "./modules/core/core.mjs";
+if (window.localStorage.getItem(DiscordOxygenBackup) !== undefined) {
   initialize();
 } else {
-  import resume from "./modules/core/core.mjs";
   resume();
 }
-import loadModule from "./modules/core/core.mjs";
-
-loadModule("./webpackChunkdiscord_app");

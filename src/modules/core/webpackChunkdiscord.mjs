@@ -23,14 +23,36 @@ window.webpackChunkdiscord_app.pop(); // clean up the mess we created in order t
 and now
 never use webpackChunkdiscord_app.push again lol, if discord changes soemthing again (like on october 22nd, 2021), this is the only thing that need to be updated
 */
-export default {DiscordChunk};
+export default DiscordChunk;
 //window.DiscordOxygen.API.DiscordChunk = DiscordChunk;
 
-export function DiscordChunkAPI() {
+function DiscordChunkAPI() {
   //DiscordChunkAPI().getCurrentUser(); not sure yet wether this is possible
 }
 
-
+/* this is an ugly hack and will hopefully never make it into production
 export function DiscordChunkFunction(name) {
   return "DiscordChunk.find(m => m?.exports?.default?." + name + " !== void 0).exports.default." + name;
 }
+*/
+
+let webpackExports;
+if (webpackChunkdiscord_app != null) {
+  let ids = ["__extra_id__"];
+  webpackChunkdiscord_app.push([ids,{},(req) => {webpackExports = req;ids.length = 0;},]);
+  window.webpackChunkdiscord_app.pop(); // clean up the mess we created in order to obtain the objects
+}
+const findModule = (filter) => {
+  for (let i in webpackExports.c) {
+    if (webpackExports.c.hasOwnProperty(i)) {
+      let m = webpackExports.c[i].exports;
+      if (!m) continue;
+      if (m.__esModule && m.default) m = m.default;
+      if (filter(m)) return m;
+    }
+  }
+  return null;
+};
+const findModuleProps = (propNames) => findModule((module) => propNames.every((prop) => module[prop] !== undefined));
+
+export {findModuleProps};
