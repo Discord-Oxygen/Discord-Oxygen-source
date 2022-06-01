@@ -1,18 +1,22 @@
 {
-  "name": "discordoxygen",
->  "description": "Discord Oxygen - ESM-based client-mod for Discord",
-  "version": "0.5.2",
-  "main": "./src/main.js",
-  "license": "proprietary",
+  "name": "discord-oxygen-source",
+  "version": "0.1.0",
+  "description": "discord oxygen old shit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hxr404/Discord-Oxygen-source"
+    "url": "git+https://github.com/hxr404/Discord-Oxygen-source.git"
   },
+  "author": "hxr404",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/hxr404/Discord-Oxygen-source/issues"
+  },
+  "homepage": "https://github.com/hxr404/Discord-Oxygen-source#readme",
   "devDependencies": {
-    "rollup": "^2.34.0"
-  },
-  "scripts": {
-    "pack": "rollup --config",
-    "build": "echo no production builds yet."
+    "snowpack": "^3.8.8"
   }
 }
