@@ -12,6 +12,14 @@ Dissemination of this information or reproduction of this material
 is strictly forbidden unless prior written permission is obtained
 from hxr404.
 
+The copyright in all works of authorship created pursuant to this agreement are owned by hxr404. All such works or portions of works created by Developer are “works made for hire” as defined in 17 U.S.C. § 201. Developer assigns to Clients all right, title, and interest in:
+
+- The copyright to all works of authorship (“Work”) and contribution to any such Work (“Contribution”) created pursuant to this agreement;
+- Any registrations and copyright applications, along with any renewals and extensions thereof, relating to the Contribution or the Work;
+- All works based upon, derived from, or incorporating the Contribution or the Work;
+- All income, royalties, damages, claims and payments now or hereafter due or payable with respect to the Contribution or the Work;
+- All causes of action, either in law or in equity, for past, present, or future infringement of copyright related to the Contribution or the Work, and all rights corresponding to any of the foregoing, throughout the world.
+
 
 ## Preamble
 
